@@ -1,0 +1,42 @@
+/*Fonts*/
+@font-face {
+  font-family: 'Norse';
+  src: url('Norse.otf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'JagAlskarDig';
+  src: url('JagAlskarDig.otf'); /* IE9 Compat Modes */
+}
+
+/*Classes*/
+.project-name {
+	color: #2f683b !important; 
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.project-name:hover {
+	color: #892e1e !important;
+}
+
+.testFont {
+	font-family: Norse;
+}
+
+.logo {
+	padding-left: 700px;
+	font-family: JagAlskarDig;
+}
+
+#container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto !important;
+  width: 50% !important;
+}
+
+.pos {
+  margin: 0 auto;
+  width: 20%;
+}
